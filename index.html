@@ -11,141 +11,85 @@
   <!-- bootstrap + core CSS -->
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
-
-  <!-- font awesome -->
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
   <!-- site specific styles -->
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
 
-  <script src="js/modernizr.js"></script> <!-- Modernizr -->
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/modernizr.custom.js"></script>
+
 
 </head>
 
-<body>
+<body class="fluid">
 
-  <!-- navbar -->
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Project name</a>
-      </div>
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
+      <header class="clearfix">
+        <span>Blueprint <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+        <h1>Horizontal Slide Out Menu</h1>
+        <nav>
+          <a href="http://tympanus.net/Blueprints/VerticalTimeline/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+          <a href="http://tympanus.net/Blueprints/ProductGridLayout/" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a>
+          <a href="http://tympanus.net/codrops/?p=15092" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+          <a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+        </nav>
+      </header>
+
+
+      <div class="main">
+        <nav class="cbp-hsmenu-wrapper" id="cbp-hsmenu-wrapper">
+          <div class="cbp-hsinner">
+            <ul class="cbp-hsmenu">
+              <li>
+                <a href="#">Cards</a>
+                <ul class="cbp-hssubmenu">
+                  <li><a href="plugins/cards/3d-items-quick-view/index.html" target="_blank"><img src="images/cards/1.png" alt="img01"/><span>3d-items-quick-view</span></a></li>
+                  <li><a href="plugins/cards/content-filter/index.html"><img src="images/2.png" alt="img02"/><span>content-filter</span></a></li>
+                  <li><a href="plugins/cards/grid-galleryindex.html" target="_blank"><img src="images/3.png" alt="img03"/><span>grid-gallery</span></a></li>
+                  <li><a href="plugins/cards/product-preview-slider/index.html" target="_blank"><img src="images/4.png" alt="img04"/><span>product-preview-slider</span></a></li>
+                  <li><a href="plugins/cards/product-quick-view/index.html" target="_blank"><img src="images/5.png" alt="img05"/><span>product-quick-view</span></a></li>
+                  <li><a href="plugins/cards/slide-in-panel/index.html" target="_blank"><img src="images/6.png" alt="img06"/><span>slide-in-panel</span></a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Expanding</a>
+                <ul class="cbp-hssubmenu cbp-hssub-rows">
+                  <li><a href="#"><img src="images/7.png" alt="img07"/><span>Lovely Slurp</span></a></li>
+                  <li><a href="#"><img src="images/8.png" alt="img08"/><span>Lemony Grappa</span></a></li>
+                  <li><a href="#"><img src="images/9.png" alt="img09"/><span>Eggy Liquor</span></a></li>
+                  <li><a href="#"><img src="images/10.png" alt="img10"/><span>Fresh Juice</span></a></li>
+                  <li><a href="#"><img src="images/1.png" alt="img01"/><span>Delicate Wine</span></a></li>
+                  <li><a href="#"><img src="images/2.png" alt="img02"/><span>Fine Spirit</span></a></li>
+                  <li><a href="#"><img src="images/3.png" alt="img03"/><span>Heavenly Ale</span></a></li>
+                  <li><a href="#"><img src="images/4.png" alt="img04"/><span>Juicy Lemonade</span></a></li>
+                  <li><a href="#"><img src="images/5.png" alt="img05"/><span>Wise Whiskey</span></a></li>
+                  <li><a href="#"><img src="images/6.png" alt="img06"/><span>Sweet Rum</span></a></li>
+                  <li><a href="#"><img src="images/1.png" alt="img01"/><span>Delicate Wine</span></a></li>
+                  <li><a href="#"><img src="images/2.png" alt="img02"/><span>Fine Spirit</span></a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Page Transition</a>
+                <ul class="cbp-hssubmenu">
+                  <li><a href="#"><img src="images/10.png" alt="img10"/><span>Fresh Juice</span></a></li>
+                  <li><a href="#"><img src="images/6.png" alt="img06"/><span>Sweet Rum</span></a></li>
+                  <li><a href="#"><img src="images/9.png" alt="img09"/><span>Eggy Liquor</span></a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Split Screen</a>
+                <ul class="cbp-hssubmenu">
+                  <li><a href="#"><img src="images/10.png" alt="img10"/><span>Fresh Juice</span></a></li>
+                  <li><a href="#"><img src="images/6.png" alt="img06"/><span>Sweet Rum</span></a></li>
+                  <li><a href="#"><img src="images/9.png" alt="img09"/><span>Eggy Liquor</span></a></li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="../navbar/">Default</a></li>
-          <li><a href="../navbar-static-top/">Static top</a></li>
-          <li class="active"><a href="./">Fixed top</a></li>
-        </ul>
-      </div><!--/.nav-collapse -->
-    </div>
-  </div>
-
-  <div class="container" style="padding-top: 70px;">
-    <div class="row">
-      <div class="col-md-12">
-        <h1> Default Site </h1>
+          </div>
+        </nav>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <img src="img/i-did-it.gif" style="margin: 30px auto;" class="img-responsive">
-      </div>
-    </div>
-
-    <div class="row" style="margin-top: 200px;">
-      <ul class="button-display">
-        <ul class="button-display">
-          <h2> Default / Primary / Embossed </h2>
-          <li><a href="#"  class="btn btn-default">button</a></li>
-          <li><a href="#"  class="btn btn-default btn-embossed">button</a></li>
-          <li> <a href="#" class="btn btn-primary">button</a></li>
-          <li><a href="#" class="btn btn-primary btn-embossed">button</a></li>
-        </ul>
-        <li>
-          <ul class="button-display">
-            <h2> Wide </h2>
-            <li><a href="#" class="btn btn-default btn-primary btn-wide">button</a></li>
-            <li><a href="#" class="btn btn-default btn-primary btn-wide btn-embossed">button</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-
-    <div class="row" >
-      <ul class="button-display">
-        <li>
-          <ul class="button-display">
-            <h2> x-small (xs) </h2>
-            <li><a href="#" class="btn btn-xs btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="button-display">
-            <h2> small (sm) </h2>
-            <li><a href="#" class="btn btn-sm btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-        <li>
-          <ul class="button-display">
-            <h2> med (default) </h2>
-          <li><a href="#" class="btn btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-         <li>
-          <ul class="button-display">
-            <h2> large (lg) </h2>
-            <li><a href="#" class="btn btn-lg btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-        
-        <li>
-          <ul class="button-display">
-            <h2> huge </h2>
-            <li><a href="#" class="btn btn-hg btn-primary btn-embossed">button</a></li>
-          </ul>
-        </li>
-       
-        
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +103,11 @@
   <!-- script references -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-  
+    
+  <script src="js/cbpHorizontalSlideOutMenu.min.js"></script>
+    <script>
+      var menu = new cbpHorizontalSlideOutMenu( document.getElementById( 'cbp-hsmenu-wrapper' ) );
+    </script>
 
 </body>
 </html>
